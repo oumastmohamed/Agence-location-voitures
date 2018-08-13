@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="25db4574-27a0-4029-9914-408f52a59a7b">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="15"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" fontName="Times New Roman" fontSize="50" isBold="true" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Row" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     g_client_vehi.`immatricule` AS g_client_vehi_immatricule,
+     g_client_vehi.`Marque` AS g_client_vehi_Marque,
+     g_client_vehi.`Modele` AS g_client_vehi_Modele,
+     g_client_vehi.`Categorie` AS g_client_vehi_Categorie,
+     g_client_vehi.`Curburant` AS g_client_vehi_Curburant,
+     g_client_vehi.`Couleur` AS g_client_vehi_Couleur,
+     g_client_vehi.`Lieu_stationnement` AS g_client_vehi_Lieu_stationnement
+FROM
+     `g_client_vehi` g_client_vehi]]>
+	</queryString>
+	<field name="g_client_vehi_immatricule" class="java.lang.String"/>
+	<field name="g_client_vehi_Marque" class="java.lang.String"/>
+	<field name="g_client_vehi_Modele" class="java.lang.String"/>
+	<field name="g_client_vehi_Categorie" class="java.lang.String"/>
+	<field name="g_client_vehi_Curburant" class="java.lang.String"/>
+	<field name="g_client_vehi_Couleur" class="java.lang.String"/>
+	<field name="g_client_vehi_Lieu_stationnement" class="java.lang.String"/>
+	<group name="g_client_vehi_immatricule">
+		<groupExpression><![CDATA[$F{g_client_vehi_immatricule}]]></groupExpression>
+		<groupHeader>
+			<band height="30">
+				<frame>
+					<reportElement mode="Opaque" x="-21" y="7" width="843" height="19" forecolor="#B89F7D" backcolor="#F2EBDF" uuid="bb9e1a4b-e0b3-44e9-8e67-515bdb1a482d"/>
+					<rectangle>
+						<reportElement mode="Opaque" x="21" y="5" width="24" height="14" backcolor="#736343" uuid="d615c303-eceb-4481-b8d7-9fa0e90ea7ec"/>
+						<graphicElement>
+							<pen lineWidth="0.0"/>
+						</graphicElement>
+					</rectangle>
+					<textField>
+						<reportElement style="SubTitle" x="57" y="5" width="97" height="14" forecolor="#736343" uuid="9ba9a185-4e82-4833-afd1-6524fbbc1e9d"/>
+						<textElement>
+							<font size="12" isBold="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{g_client_vehi_immatricule}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="136" splitType="Stretch">
+			<staticText>
+				<reportElement style="Title" x="198" y="0" width="421" height="62" uuid="db6837d7-6d35-4004-a0cb-11ea1ef60ef1"/>
+				<textElement verticalAlignment="Middle">
+					<font pdfFontName="Times-Roman"/>
+				</textElement>
+				<text><![CDATA[Liste des Vehicules]]></text>
+			</staticText>
+			<image>
+				<reportElement x="665" y="0" width="137" height="106" uuid="772f04b4-c51d-49fe-a8b7-622b189d3a96"/>
+				<imageExpression><![CDATA["C:\\Users\\StongKa\\Documents\\NetBeansProjects\\AgenceLocationVoitures\\src\\PackMenuForm\\Icons\\itext\\vb.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="0" y="0" width="133" height="106" uuid="446a5d5b-d330-47d7-afc3-7b2232d90a78"/>
+				<imageExpression><![CDATA["C:\\Users\\StongKa\\Documents\\NetBeansProjects\\AgenceLocationVoitures\\src\\PackMenuForm\\Icons\\itext\\folder.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="24" y="120" width="99" height="16" forecolor="#736343" uuid="162aaf98-9fa6-4751-ae38-8644540875eb"/>
+				<textElement>
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Immatriculation]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="802" height="1" uuid="59cbe9cb-128a-4dc3-8582-0cb28778fe33"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement style="Column header" x="123" y="0" width="102" height="15" forecolor="#736343" uuid="ca7d2cde-faff-4f8b-a2a6-f8fb30b05571"/>
+				<text><![CDATA[Marque]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="225" y="0" width="117" height="15" forecolor="#736343" uuid="20b34f28-bdeb-4bf1-90cc-2ea60728469e"/>
+				<text><![CDATA[Modèle]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="342" y="0" width="95" height="15" forecolor="#736343" uuid="6145cb6a-4d16-404b-97d7-1ec1e992719b"/>
+				<text><![CDATA[Categorie]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="437" y="0" width="95" height="15" forecolor="#736343" uuid="29fea6b9-9114-41fe-99d8-4e47b442d961"/>
+				<text><![CDATA[Curburant]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="532" y="1" width="116" height="15" forecolor="#736343" uuid="bf8b19f8-ab39-4746-a634-d58cf2897bf5"/>
+				<text><![CDATA[Couleur]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="648" y="1" width="137" height="15" forecolor="#736343" uuid="606ddfca-f12c-4ec1-9c73-267090a3672a"/>
+				<text><![CDATA[Lieu de Stationnement]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="17" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="802" height="15" uuid="8d3cfe8d-325e-42b8-9a97-9100250e51a9"/>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="123" y="0" width="102" height="15" uuid="5e40c843-bef7-4f17-99e8-2ab72fc921d5"/>
+					<textFieldExpression><![CDATA[$F{g_client_vehi_Marque}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="225" y="0" width="104" height="15" uuid="df5a3e47-f735-4e91-8df2-75491f6e2c79"/>
+					<textFieldExpression><![CDATA[$F{g_client_vehi_Modele}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="437" y="0" width="95" height="15" uuid="2c4195c4-0bcc-4f98-b6d3-fc7171589dc5"/>
+					<textFieldExpression><![CDATA[$F{g_client_vehi_Curburant}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="532" y="0" width="116" height="15" uuid="fbf532c4-8a38-41a4-b3ca-00b078f440cc"/>
+					<textFieldExpression><![CDATA[$F{g_client_vehi_Couleur}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="648" y="0" width="150" height="15" uuid="312d5fa5-cd0d-47cb-b207-f600191a4c6b"/>
+					<textFieldExpression><![CDATA[$F{g_client_vehi_Lieu_stationnement}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="329" y="0" width="108" height="15" uuid="c51b41b0-a96c-422c-9045-948a82e489ec"/>
+					<textFieldExpression><![CDATA[$F{g_client_vehi_Categorie}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="6" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="802" height="1" uuid="4114213f-744d-4191-87dd-f63a893a2ff6"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-21" y="1" width="843" height="24" forecolor="#D0B48E" backcolor="#F2EBDF" uuid="17cb9955-901b-49fb-a0f0-95feee45384a"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="783" y="1" width="40" height="20" forecolor="#736343" uuid="3791caf2-7af8-4c16-a300-583694f4ad81"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="703" y="1" width="80" height="20" forecolor="#736343" uuid="fe55c597-2cd9-438b-9207-9a973313caa0"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="22" y="1" width="197" height="20" forecolor="#736343" uuid="255e6edb-876b-4eb1-ab61-dd5f850af5b2"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

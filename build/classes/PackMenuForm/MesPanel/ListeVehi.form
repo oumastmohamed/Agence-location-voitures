@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="GroupBtn">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="f3" green="f3" red="f4" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f3" green="f3" red="f4" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel6" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="54" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="281" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="211" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel6" max="32767" attributes="0"/>
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f3" green="f3" red="f4" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="btnActualiser" min="-2" pref="51" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="251" max="-2" attributes="0"/>
+                              <Component id="lblResultVehi" min="-2" pref="305" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="DynamicListeVehi" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnActualiser" min="-2" pref="38" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblResultVehi" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="142" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DynamicListeVehi" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Crit&#xe8;res de recherche">
+                      <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                      <Font PropertyName="font" name="Tahoma" size="12" style="1"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel3" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cmbMarque" min="-2" pref="139" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cmbCat" min="-2" pref="139" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="jLabel14" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cmbModele" alignment="0" min="-2" pref="139" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rbtn_tout" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtn_ess" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rbtn_gas" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtn_gpl" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="31" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="rbtn_gpl" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtn_tout" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="rbtn_ess" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbtn_gas" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cmbMarque" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="cmbCat" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel4" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="cmbModele" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="23" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Marque"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Mod&#xe8;le"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Cat&#xe9;gorie"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cmbMarque">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="17">
+                        <StringItem index="0" value="Tous"/>
+                        <StringItem index="1" value="Alfa Remeo"/>
+                        <StringItem index="2" value="Audi"/>
+                        <StringItem index="3" value="Aston Martin"/>
+                        <StringItem index="4" value="BMW"/>
+                        <StringItem index="5" value="Cadillac"/>
+                        <StringItem index="6" value="Chevrolet"/>
+                        <StringItem index="7" value="Dacia"/>
+                        <StringItem index="8" value="Corvette"/>
+                        <StringItem index="9" value="Ford"/>
+                        <StringItem index="10" value="Hyundai"/>
+                        <StringItem index="11" value="Lamborghini"/>
+                        <StringItem index="12" value="Land Rover"/>
+                        <StringItem index="13" value="Mercedes"/>
+                        <StringItem index="14" value="Mini"/>
+                        <StringItem index="15" value="Renault"/>
+                        <StringItem index="16" value="Peugeot"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmbMarqueItemStateChanged"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbMarqueActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cmbModele">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="1">
+                        <StringItem index="0" value="Tous"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmbModeleItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cmbCat">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="Tous"/>
+                        <StringItem index="1" value="Tourisme"/>
+                        <StringItem index="2" value="Monospace"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="cmbCatItemStateChanged"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Carburant"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_ess">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Essence"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_gas">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Gasoil"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_gpl">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="GPL"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="rbtn_gplItemStateChanged"/>
+                    <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="rbtn_gplStateChanged"/>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="rbtn_gplMouseClicked"/>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="rbtn_gplMousePressed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtn_gplActionPerformed"/>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="rbtn_gplKeyPressed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_tout">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tout"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="rbtn_toutItemStateChanged"/>
+                    <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="rbtn_toutStateChanged"/>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="rbtn_toutMouseClicked"/>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="rbtn_toutMousePressed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rbtn_toutActionPerformed"/>
+                    <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="rbtn_toutKeyPressed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="btnActualiser">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/PackMenuForm/Icons/Actualiser.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Curseur en forme de main"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnActualiserActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblResultVehi">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="33" red="33" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="jLabel6"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tableVehi">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                    </Property>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                        <EtchetBorder/>
+                      </Border>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="7" rowCount="4">
+                        <Column editable="false" title="Immatriculation" type="java.lang.String"/>
+                        <Column editable="false" title="Marque" type="java.lang.String"/>
+                        <Column editable="false" title="Mod&#xe8;le" type="java.lang.String"/>
+                        <Column editable="false" title="Cat&#xe9;gorie" type="java.lang.String"/>
+                        <Column editable="false" title="Couleur" type="java.lang.String"/>
+                        <Column editable="false" title="Carburant" type="java.lang.Integer"/>
+                        <Column editable="false" title="Lieu de stationnement" type="java.lang.Integer"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Curseur en forme de main"/>
+                    </Property>
+                    <Property name="gridColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="e2" green="e2" red="e2" type="rgb"/>
+                    </Property>
+                    <Property name="opaque" type="boolean" value="false"/>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tableVehiMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="DynamicListeVehi">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="PanelVisua" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="328" max="32767" attributes="0"/>
+                      <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="PanelVisua" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="PanelVisua">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jPanel7" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="29" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel7" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanel5">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                            <EtchetBorder/>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel9" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel7" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txt_modele" alignment="0" pref="173" max="32767" attributes="0"/>
+                                      <Component id="txt_Catègorie" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txt_marque" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txt_imma" alignment="1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel12" alignment="0" pref="94" max="32767" attributes="0"/>
+                                      <Component id="jLabel11" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel10" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txt_lieuS" alignment="0" pref="173" max="32767" attributes="0"/>
+                                      <Component id="cmb_carb" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="cmb_couleur" alignment="1" pref="173" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Component id="txt_imma" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="cmb_couleur" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_marque" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cmb_carb" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_modele" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_lieuS" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_Catègorie" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel6">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Immatriculation"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txt_marque">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel7">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Marque"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel8">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Mod&#xe8;le"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txt_modele">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txt_Cat&#xe8;gorie">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel9">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Cat&#xe8;gorie"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel10">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Couleur"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel11">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Carburant"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel12">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="12" style="1"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Stationnement"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txt_lieuS">
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_lieuSActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="txt_imma">
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="cmb_couleur">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="316">
+                                <StringItem index="0" value="Abricot"/>
+                                <StringItem index="1" value="Absinthe"/>
+                                <StringItem index="2" value="Acajou"/>
+                                <StringItem index="3" value="Aigue-marine"/>
+                                <StringItem index="4" value="Aile de corbeau (cheveux)"/>
+                                <StringItem index="5" value="Alb&#xe2;tre"/>
+                                <StringItem index="6" value="Alezan (chevaux)"/>
+                                <StringItem index="7" value="Amande"/>
+                                <StringItem index="8" value="Amarante"/>
+                                <StringItem index="9" value="Ambre jaune"/>
+                                <StringItem index="10" value="Ambre rouge"/>
+                                <StringItem index="11" value="Am&#xe9;thyste"/>
+                                <StringItem index="12" value="Anthracite"/>
+                                <StringItem index="13" value="Aquilain (chevaux)"/>
+                                <StringItem index="14" value="Ardoise"/>
+                                <StringItem index="15" value="Argent"/>
+                                <StringItem index="16" value="Argent (h&#xe9;raldique)4"/>
+                                <StringItem index="17" value="Argile"/>
+                                <StringItem index="18" value="Asperge"/>
+                                <StringItem index="19" value="Aubergine"/>
+                                <StringItem index="20" value="Auburn (cheveux)"/>
+                                <StringItem index="21" value="Aurore"/>
+                                <StringItem index="22" value="Avocat"/>
+                                <StringItem index="23" value="Azur"/>
+                                <StringItem index="24" value="Azur (h&#xe9;raldique)"/>
+                                <StringItem index="25" value="Azur brume"/>
+                                <StringItem index="26" value="Azur clair"/>
+                                <StringItem index="27" value="Azurin"/>
+                                <StringItem index="28" value="Baillet (chevaux vieilli)"/>
+                                <StringItem index="29" value="Banane"/>
+                                <StringItem index="30" value="Basan&#xe9; (teint)"/>
+                                <StringItem index="31" value="Beige"/>
+                                <StringItem index="32" value="Beige clair"/>
+                                <StringItem index="33" value="Beigeasse (p&#xe9;joratif)"/>
+                                <StringItem index="34" value="Beurre"/>
+                                <StringItem index="35" value="Beurre frais"/>
+                                <StringItem index="36" value="Bis"/>
+                                <StringItem index="37" value="Bis (h&#xe9;raldique)"/>
+                                <StringItem index="38" value="Bisque"/>
+                                <StringItem index="39" value="Bistre"/>
+                                <StringItem index="40" value="Bitume (pigment)"/>
+                                <StringItem index="41" value="Blanc"/>
+                                <StringItem index="42" value="Blanc cass&#xe9;"/>
+                                <StringItem index="43" value="Blanc d&apos;argent (pigment) ou de plomb"/>
+                                <StringItem index="44" value="Blanc d&apos;Espagne (pigment)"/>
+                                <StringItem index="45" value="Blanc de lait"/>
+                                <StringItem index="46" value="Blanc de Meudon ou de Troyes (pigment)"/>
+                                <StringItem index="47" value="Blanc de zinc (pigment)"/>
+                                <StringItem index="48" value="Blanc lunaire"/>
+                                <StringItem index="49" value="Bl&#xe9;"/>
+                                <StringItem index="50" value="Bleu acier"/>
+                                <StringItem index="51" value="Bleu barbeau ou bleuet"/>
+                                <StringItem index="52" value="Bleu canard"/>
+                                <StringItem index="53" value="Bleu c&#xe9;leste"/>
+                                <StringItem index="54" value="Bleu charrette"/>
+                                <StringItem index="55" value="Bleu ciel"/>
+                                <StringItem index="56" value="Bleu de cobalt (pigment)"/>
+                                <StringItem index="57" value="Bleu de minuit"/>
+                                <StringItem index="58" value="Bleu de Prusse (pigment), de Berlin ou bleu hussard"/>
+                                <StringItem index="59" value="Bleu des mers du sud"/>
+                                <StringItem index="60" value="Bleu drag&#xe9;e"/>
+                                <StringItem index="61" value="Bleu &#xe9;lectrique"/>
+                                <StringItem index="62" value="Bleu fum&#xe9;e"/>
+                                <StringItem index="63" value="Bleu givr&#xe9;"/>
+                                <StringItem index="64" value="Bleu gu&#xe8;de (pigment)"/>
+                                <StringItem index="65" value="Bleu Klein &amp;tm;"/>
+                                <StringItem index="66" value="Bleu Majorelle"/>
+                                <StringItem index="67" value="Bleu nuit"/>
+                                <StringItem index="68" value="Bleu outremer"/>
+                                <StringItem index="69" value="Bleu paon"/>
+                                <StringItem index="70" value="Bleu Persan"/>
+                                <StringItem index="71" value="Bleu p&#xe9;trole"/>
+                                <StringItem index="72" value="Bleu"/>
+                                <StringItem index="73" value="Bleu roi ou de France"/>
+                                <StringItem index="74" value="Bleu turquin"/>
+                                <StringItem index="75" value="Blond v&#xe9;nitien (cheveux)"/>
+                                <StringItem index="76" value="Blond (cheveux)"/>
+                                <StringItem index="77" value="Bordeaux"/>
+                                <StringItem index="78" value="Bourgogne"/>
+                                <StringItem index="79" value="Bouton d&apos;or"/>
+                                <StringItem index="80" value="Brique"/>
+                                <StringItem index="81" value="Bronze"/>
+                                <StringItem index="82" value="Brou de noix"/>
+                                <StringItem index="83" value="Brun (cheveux)"/>
+                                <StringItem index="84" value="Brun clair (cheveux)"/>
+                                <StringItem index="85" value="Bureau"/>
+                                <StringItem index="86" value="Caca d&apos;oie"/>
+                                <StringItem index="87" value="Cacao"/>
+                                <StringItem index="88" value="Cachou (pigments)"/>
+                                <StringItem index="89" value="C&#xe6;rul&#xe9;um"/>
+                                <StringItem index="90" value="Caf&#xe9;"/>
+                                <StringItem index="91" value="Caf&#xe9; au lait"/>
+                                <StringItem index="92" value="Cannelle"/>
+                                <StringItem index="93" value="Capucine"/>
+                                <StringItem index="94" value="Caramel (pigments)"/>
+                                <StringItem index="95" value="Carmin (pigment)"/>
+                                <StringItem index="96" value="Carotte"/>
+                                <StringItem index="97" value="Cerise"/>
+                                <StringItem index="98" value="Cerise Hollywood"/>
+                                <StringItem index="99" value="Cerise profonde"/>
+                                <StringItem index="100" value="Cerise rose"/>
+                                <StringItem index="101" value="C&#xe9;ruse (pigment)"/>
+                                <StringItem index="102" value="Chair"/>
+                                <StringItem index="103" value="Chamois"/>
+                                <StringItem index="104" value="Chartreuse"/>
+                                <StringItem index="105" value="Ch&#xe2;taigne"/>
+                                <StringItem index="106" value="Ch&#xe2;tain (cheveux)"/>
+                                <StringItem index="107" value="Chaudron"/>
+                                <StringItem index="108" value="Chocolat"/>
+                                <StringItem index="109" value="Cinabre (pigment)"/>
+                                <StringItem index="110" value="Citron"/>
+                                <StringItem index="111" value="Citrouille"/>
+                                <StringItem index="112" value="Colombin (vieilli)"/>
+                                <StringItem index="113" value="Coquelicot"/>
+                                <StringItem index="114" value="Coquille d&apos;&#x153;uf"/>
+                                <StringItem index="115" value="Corail"/>
+                                <StringItem index="116" value="Cramoisi"/>
+                                <StringItem index="117" value="Cr&#xe8;me"/>
+                                <StringItem index="118" value="Cuisse de nymphe"/>
+                                <StringItem index="119" value="Cuisse de nymphe &#xe9;mue"/>
+                                <StringItem index="120" value="Cuivre"/>
+                                <StringItem index="121" value="Cyan"/>
+                                <StringItem index="122" value="Denim"/>
+                                <StringItem index="123" value="&#xc9;b&#xe8;ne"/>
+                                <StringItem index="124" value="&#xc9;carlate"/>
+                                <StringItem index="125" value="&#xc9;cru"/>
+                                <StringItem index="126" value="&#xc9;meraude"/>
+                                <StringItem index="127" value="&#xc9;tain"/>
+                                <StringItem index="128" value="Fauve"/>
+                                <StringItem index="129" value="Feu"/>
+                                <StringItem index="130" value="Feuille morte"/>
+                                <StringItem index="131" value="Flave"/>
+                                <StringItem index="132" value="Fraise"/>
+                                <StringItem index="133" value="Fraise &#xe9;cras&#xe9;e"/>
+                                <StringItem index="134" value="Framboise"/>
+                                <StringItem index="135" value="Framboise rose"/>
+                                <StringItem index="136" value="Fuchsia"/>
+                                <StringItem index="137" value="Garance (pigment)"/>
+                                <StringItem index="138" value="Glauque"/>
+                                <StringItem index="139" value="Glycine"/>
+                                <StringItem index="140" value="Gr&#xe8;ge"/>
+                                <StringItem index="141" value="Grenadine"/>
+                                <StringItem index="142" value="Grenat"/>
+                                <StringItem index="143" value="Gris"/>
+                                <StringItem index="144" value="Gris acier"/>
+                                <StringItem index="145" value="Gris de lin"/>
+                                <StringItem index="146" value="Gris de Payne (m&#xe9;lange de pigments)"/>
+                                <StringItem index="147" value="Gris fer"/>
+                                <StringItem index="148" value="Gris perle"/>
+                                <StringItem index="149" value="Groseille"/>
+                                <StringItem index="150" value="Gueules (h&#xe9;raldique)"/>
+                                <StringItem index="151" value="H&#xe9;liotrope"/>
+                                <StringItem index="152" value="Incarnadin"/>
+                                <StringItem index="153" value="Incarnat"/>
+                                <StringItem index="154" value="Indigo chaud"/>
+                                <StringItem index="155" value="Indigo du web"/>
+                                <StringItem index="156" value="Indigo &#xe9;lectrique"/>
+                                <StringItem index="157" value="Indigo (teinture)"/>
+                                <StringItem index="158" value="Isabelle (chevaux)"/>
+                                <StringItem index="159" value="Ivoire"/>
+                                <StringItem index="160" value="Jais"/>
+                                <StringItem index="161" value="Jaune de cobalt ou aur&#xe9;olin (pigment)"/>
+                                <StringItem index="162" value="Jaune bouton d&#x2019;or"/>
+                                <StringItem index="163" value="Jaune canari"/>
+                                <StringItem index="164" value="Jaune chartreuse"/>
+                                <StringItem index="165" value="Jaune d&apos;or"/>
+                                <StringItem index="166" value="Jaune de Mars (pigment)"/>
+                                <StringItem index="167" value="Jaune de Naples (pigment)"/>
+                                <StringItem index="168" value="Jaune imp&#xe9;rial"/>
+                                <StringItem index="169" value="Jaune mimosa"/>
+                                <StringItem index="170" value="Kaki"/>
+                                <StringItem index="171" value="Lapis-lazuli"/>
+                                <StringItem index="172" value="Lavalli&#xe8;re (reliure)"/>
+                                <StringItem index="173" value="Lavande"/>
+                                <StringItem index="174" value="Lie de vin"/>
+                                <StringItem index="175" value="Lilas"/>
+                                <StringItem index="176" value="Lin"/>
+                                <StringItem index="177" value="Magenta fuchsia (encre)"/>
+                                <StringItem index="178" value="Magenta"/>
+                                <StringItem index="179" value="Magenta fonc&#xe9;, primaire en synth&#xe8;se soustractive"/>
+                                <StringItem index="180" value="Ma&#xef;s"/>
+                                <StringItem index="181" value="Malachite"/>
+                                <StringItem index="182" value="Mandarine"/>
+                                <StringItem index="183" value="Marine"/>
+                                <StringItem index="184" value="Marron"/>
+                                <StringItem index="185" value="Mastic"/>
+                                <StringItem index="186" value="Mauve (couleur)"/>
+                                <StringItem index="187" value="Melon"/>
+                                <StringItem index="188" value="Menthe"/>
+                                <StringItem index="189" value="Menthe &#xe0; l&apos;eau"/>
+                                <StringItem index="190" value="Mordor&#xe9;"/>
+                                <StringItem index="191" value="Moutarde"/>
+                                <StringItem index="192" value="Nacarat"/>
+                                <StringItem index="193" value="Nankin"/>
+                                <StringItem index="194" value="Neige"/>
+                                <StringItem index="195" value="Noir"/>
+                                <StringItem index="196" value="Noir animal (pigment)"/>
+                                <StringItem index="197" value="Noir d&apos;aniline (pigment)"/>
+                                <StringItem index="198" value="Noir d&apos;encre"/>
+                                <StringItem index="199" value="Noir d&apos;ivoire (pigment)"/>
+                                <StringItem index="200" value="Noir de carbone (pigment)"/>
+                                <StringItem index="201" value="Noir de fum&#xe9;e (pigment)"/>
+                                <StringItem index="202" value="Noir de jais"/>
+                                <StringItem index="203" value="Noisette"/>
+                                <StringItem index="204" value="Ocre jaune (pigment)"/>
+                                <StringItem index="205" value="Ocre rouge (pigment)"/>
+                                <StringItem index="206" value="Olive"/>
+                                <StringItem index="207" value="Opale"/>
+                                <StringItem index="208" value="Or"/>
+                                <StringItem index="209" value="Orange"/>
+                                <StringItem index="210" value="Orange br&#xfb;l&#xe9;"/>
+                                <StringItem index="211" value="Orchid&#xe9;e"/>
+                                <StringItem index="212" value="Orpiment (pigment)"/>
+                                <StringItem index="213" value="Orpin de Perse"/>
+                                <StringItem index="214" value="Paille"/>
+                                <StringItem index="215" value="Parme"/>
+                                <StringItem index="216" value="Pastel (pigment)"/>
+                                <StringItem index="217" value="Pelure d&apos;oignon (&#x153;nologie)"/>
+                                <StringItem index="218" value="Pervenche"/>
+                                <StringItem index="219" value="Pistache"/>
+                                <StringItem index="220" value="Poil de chameau"/>
+                                <StringItem index="221" value="Ponceau"/>
+                                <StringItem index="222" value="Pourpre (h&#xe9;raldique)"/>
+                                <StringItem index="223" value="Prasin"/>
+                                <StringItem index="224" value="Prune"/>
+                                <StringItem index="225" value="Puce"/>
+                                <StringItem index="226" value="Queue-de-renard"/>
+                                <StringItem index="227" value="Rose"/>
+                                <StringItem index="228" value="Rose bonbon"/>
+                                <StringItem index="229" value="Rose drag&#xe9;e"/>
+                                <StringItem index="230" value="Rose du web"/>
+                                <StringItem index="231" value="Rose Mountbatten"/>
+                                <StringItem index="232" value="Rose Persan vif"/>
+                                <StringItem index="233" value="Rose razzle dazzle"/>
+                                <StringItem index="234" value="Rose shocking &amp;tm;"/>
+                                <StringItem index="235" value="Rose ultra"/>
+                                <StringItem index="236" value="Rose vif"/>
+                                <StringItem index="237" value="Rouge-orang&#xe9; sRGB"/>
+                                <StringItem index="238" value="Rouge anglais (pigment)"/>
+                                <StringItem index="239" value="Rouge cardinal"/>
+                                <StringItem index="240" value="Rouge cerise"/>
+                                <StringItem index="241" value="Rouge d&apos;alizarine (pigment)"/>
+                                <StringItem index="242" value="Rouge d&apos;Andrinople (pigment)"/>
+                                <StringItem index="243" value="Rouge de Falun (pigment)"/>
+                                <StringItem index="244" value="Rouge feu"/>
+                                <StringItem index="245" value="Rouge sang"/>
+                                <StringItem index="246" value="Rouge tomette"/>
+                                <StringItem index="247" value="Rouge turc (pigment)"/>
+                                <StringItem index="248" value="Rouille"/>
+                                <StringItem index="249" value="Roux"/>
+                                <StringItem index="250" value="Rubis"/>
+                                <StringItem index="251" value="Sable"/>
+                                <StringItem index="252" value="Sable (h&#xe9;raldique)"/>
+                                <StringItem index="253" value="Safran"/>
+                                <StringItem index="254" value="Safre"/>
+                                <StringItem index="255" value="Sang de b&#x153;uf"/>
+                                <StringItem index="256" value="Sanguine"/>
+                                <StringItem index="257" value="Saphir"/>
+                                <StringItem index="258" value="Sarcelle"/>
+                                <StringItem index="259" value="Saumon"/>
+                                <StringItem index="260" value="Saumon rose"/>
+                                <StringItem index="261" value="S&#xe9;pia (pigment)"/>
+                                <StringItem index="262" value="Sinople (h&#xe9;raldique)"/>
+                                <StringItem index="263" value="Smalt (pigment)"/>
+                                <StringItem index="264" value="Smaragdin (pigment)"/>
+                                <StringItem index="265" value="Soufre"/>
+                                <StringItem index="266" value="Souris"/>
+                                <StringItem index="267" value="Tabac"/>
+                                <StringItem index="268" value="Tangerine (couleur)"/>
+                                <StringItem index="269" value="Taupe"/>
+                                <StringItem index="270" value="Terre d&apos;ombre (pigment)"/>
+                                <StringItem index="271" value="Terre de Sienne (pigment)"/>
+                                <StringItem index="272" value="Terre de Sienne br&#xfb;l&#xe9;e (pigment)"/>
+                                <StringItem index="273" value="Tomate"/>
+                                <StringItem index="274" value="Topaze"/>
+                                <StringItem index="275" value="Tourterelle"/>
+                                <StringItem index="276" value="Turquoise"/>
+                                <StringItem index="277" value="Vanille"/>
+                                <StringItem index="278" value="Vermeil"/>
+                                <StringItem index="279" value="Vermillon"/>
+                                <StringItem index="280" value="Vert"/>
+                                <StringItem index="281" value="Vert anis"/>
+                                <StringItem index="282" value="Vert bouteille"/>
+                                <StringItem index="283" value="Vert c&#xe9;ladon"/>
+                                <StringItem index="284" value="Vert chartreuse"/>
+                                <StringItem index="285" value="Vert d&apos;eau"/>
+                                <StringItem index="286" value="Vert de chrome ou anglais (pigment)"/>
+                                <StringItem index="287" value="Vert-de-gris (pigment)"/>
+                                <StringItem index="288" value="Vert de Hooker (m&#xe9;lange de pigments)"/>
+                                <StringItem index="289" value="Vert de vessie (pigment)"/>
+                                <StringItem index="290" value="Vert &#xe9;pinard"/>
+                                <StringItem index="291" value="Vert gazon ou herbe"/>
+                                <StringItem index="292" value="Vert imp&#xe9;rial"/>
+                                <StringItem index="293" value="Vert kaki"/>
+                                <StringItem index="294" value="Vert lichen"/>
+                                <StringItem index="295" value="Vert lime"/>
+                                <StringItem index="296" value="Vert m&#xe9;l&#xe8;ze"/>
+                                <StringItem index="297" value="Vert militaire"/>
+                                <StringItem index="298" value="Vert mousse"/>
+                                <StringItem index="299" value="Vert opaline"/>
+                                <StringItem index="300" value="Vert perroquet"/>
+                                <StringItem index="301" value="Vert pin"/>
+                                <StringItem index="302" value="Vert poireau"/>
+                                <StringItem index="303" value="Vert pomme"/>
+                                <StringItem index="304" value="Vert prairie"/>
+                                <StringItem index="305" value="Vert printemps"/>
+                                <StringItem index="306" value="Vert sapin"/>
+                                <StringItem index="307" value="Vert sauge"/>
+                                <StringItem index="308" value="Vert tilleul"/>
+                                <StringItem index="309" value="Vert V&#xe9;ron&#xe8;se (pigment)"/>
+                                <StringItem index="310" value="Violet"/>
+                                <StringItem index="311" value="Violet d&apos;&#xe9;v&#xea;que"/>
+                                <StringItem index="312" value="Violine"/>
+                                <StringItem index="313" value="Viride (pigment)"/>
+                                <StringItem index="314" value="Zinzolin"/>
+                                <StringItem index="315" value=" "/>
+                              </StringArray>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="cmb_carb">
+                          <Properties>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="3">
+                                <StringItem index="0" value="Essence"/>
+                                <StringItem index="1" value="Gasoil"/>
+                                <StringItem index="2" value="GPL"/>
+                              </StringArray>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel7">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btn_Modifier" min="-2" pref="156" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btn_Imprimer" min="-2" pref="156" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="btn_Imprimer" alignment="1" pref="40" max="32767" attributes="0"/>
+                                      <Component id="btn_Modifier" alignment="1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JButton" name="btn_Modifier">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Times New Roman" size="14" style="1"/>
+                            </Property>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/PackMenuForm/Icons/Modifier.png"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Modifier"/>
+                            <Property name="opaque" type="boolean" value="false"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ModifierActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="btn_Imprimer">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Times New Roman" size="14" style="1"/>
+                            </Property>
+                            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                              <Image iconType="3" name="/PackMenuForm/Icons/ImprimerInfo.png"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Imprimer"/>
+                            <Property name="opaque" type="boolean" value="false"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_ImprimerActionPerformed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f3" green="f3" red="f4" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jPanel9" max="32767" attributes="0"/>
+                          <Component id="jPanel8" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel9" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel8">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnVisua" alignment="1" max="32767" attributes="0"/>
+                              <Component id="btnNouv" alignment="1" max="32767" attributes="0"/>
+                              <Component id="btnSupp" alignment="0" pref="156" max="32767" attributes="0"/>
+                              <Component id="btnImp" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnVisua" min="-2" pref="52" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="btnNouv" min="-2" pref="52" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="btnSupp" min="-2" pref="52" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="btnImp" min="-2" pref="52" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="btnNouv">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="14" style="1"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/PackMenuForm/Icons/nouveau.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Nouveau"/>
+                    <Property name="enabled" type="boolean" value="false"/>
+                    <Property name="focusPainted" type="boolean" value="false"/>
+                    <Property name="opaque" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNouvActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnVisua">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="14" style="1"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/PackMenuForm/Icons/visualiser.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Visualiser"/>
+                    <Property name="opaque" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVisuaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnSupp">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="14" style="1"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/PackMenuForm/Icons/supprimer.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Supprimer"/>
+                    <Property name="opaque" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSuppActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnImp">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="14" style="1"/>
+                    </Property>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/PackMenuForm/Icons/Imprimer.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Imprimer"/>
+                    <Property name="opaque" type="boolean" value="false"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnImpActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel9">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f3" green="f3" red="f4" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="202" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/PackMenuForm/Icons/listeVoiture.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tempus Sans ITC" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Liste des v&#xe9;hicules"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="74cbd849-b7ae-403e-8c1a-519623febc84">
+	<style name="Title" fontName="Times New Roman" fontSize="50" isBold="true" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#736343" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<style name="Row" mode="Transparent">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style backcolor="#E6DAC3"/>
+		</conditionalStyle>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     g_reservation.`numPiece` AS g_reservation_numPiece,
+     g_reservation.`immatricule` AS g_reservation_immatricule,
+     g_reservation.`Date_depart` AS g_reservation_Date_depart,
+     g_reservation.`Lieu_depart` AS g_reservation_Lieu_depart,
+     g_reservation.`Date_retour` AS g_reservation_Date_retour,
+     g_reservation.`Lieu_retour` AS g_reservation_Lieu_retour
+FROM
+     `g_reservation` g_reservation]]>
+	</queryString>
+	<field name="g_reservation_numPiece" class="java.lang.String"/>
+	<field name="g_reservation_immatricule" class="java.lang.String"/>
+	<field name="g_reservation_Date_depart" class="java.lang.String"/>
+	<field name="g_reservation_Lieu_depart" class="java.lang.String"/>
+	<field name="g_reservation_Date_retour" class="java.lang.String"/>
+	<field name="g_reservation_Lieu_retour" class="java.lang.String"/>
+	<group name="g_reservation_immatricule">
+		<groupExpression><![CDATA[$F{g_reservation_immatricule}]]></groupExpression>
+		<groupHeader>
+			<band height="37">
+				<frame>
+					<reportElement mode="Opaque" x="-21" y="7" width="843" height="24" forecolor="#B89F7D" backcolor="#F2EBDF" uuid="e126c0ca-6f12-44ee-b548-1ed3f7055778"/>
+					<rectangle>
+						<reportElement mode="Opaque" x="21" y="0" width="36" height="24" backcolor="#736343" uuid="12b1c4aa-8506-4c62-9d90-6cdb2a6d0894"/>
+						<graphicElement>
+							<pen lineWidth="0.0"/>
+						</graphicElement>
+					</rectangle>
+					<textField>
+						<reportElement style="SubTitle" x="68" y="0" width="755" height="24" forecolor="#736343" uuid="fb7d6dc1-491e-4d23-b057-4e4cafe0cb0e"/>
+						<textElement>
+							<font isBold="true"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{g_reservation_immatricule}]]></textFieldExpression>
+					</textField>
+				</frame>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="6"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="136" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="133" height="106"  uuid="bc44bbf3-e12c-47db-b2f5-f7109c2df44d"/>
+				<imageExpression><![CDATA["C:\\Users\\StongKa\\Documents\\NetBeansProjects\\AgenceLocationVoitures\\src\\PackMenuForm\\Icons\\itext\\folder.png"]]></imageExpression>
+			</image>                       
+			<staticText>
+				<reportElement style="Title" x="170" y="0" width="700" height="64" uuid="bca7d20c-5fcf-4bb5-b672-980231062d40"/>
+				<textElement verticalAlignment="Middle">
+					<font pdfFontName="Times-Roman"/>
+				</textElement>
+				<text><![CDATA[Liste des Réservations]]></text>
+			</staticText>
+			<image>
+				<reportElement x="665" y="0" width="137" height="106" uuid="762b429e-3290-4646-8121-69b6133eb58a"/>
+				<imageExpression><![CDATA["C:\\Users\\StongKa\\Documents\\NetBeansProjects\\AgenceLocationVoitures\\src\\PackMenuForm\\Icons\\itext\\Reservation.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="16" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="15" width="802" height="1" uuid="5ebc67c9-9451-45b5-8af0-5e3c130fad3d"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement style="Column header" x="80" y="0" width="160" height="15" forecolor="#736343" uuid="ae1a4bd1-5ab4-4ae5-a213-dbafaaf5070f"/>
+				<text><![CDATA[Numéro Pièce]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="200" y="0" width="200" height="15" forecolor="#736343" uuid="36c777de-e8e4-4d63-b27f-ed1e07e7ba9e"/>
+				<text><![CDATA[Date de depart]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="360" y="0" width="160" height="15" forecolor="#736343" uuid="195ace7f-8a52-42a2-a327-61500ca66b6c"/>
+				<text><![CDATA[Lieu de depart]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="520" y="0" width="200" height="15" forecolor="#736343" uuid="845886bd-7bf2-459f-8b61-ca082b49bac3"/>
+				<text><![CDATA[Datede retoure]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="680" y="0" width="160" height="15" forecolor="#736343" uuid="55019c9d-ed34-4787-a81d-05864c6fd99d"/>
+				<text><![CDATA[Lieude retoure]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="802" height="15" uuid="9da16b1a-d038-4fcc-b542-ba3563966b22"/>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="0" y="0" width="160" height="15" uuid="85d457ca-dfef-4273-97fd-8d49c29d24bc"/>
+					<textFieldExpression><![CDATA[$F{g_reservation_numPiece}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="160" y="0" width="160" height="15" uuid="94141def-125e-4d14-b2bd-2bcdc5f3e37a"/>
+					<textFieldExpression><![CDATA[$F{g_reservation_Date_depart}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="320" y="0" width="160" height="15" uuid="5bd68f8c-b55d-46a0-9cfc-b1acc9dc16ba"/>
+					<textFieldExpression><![CDATA[$F{g_reservation_Lieu_depart}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="480" y="0" width="160" height="15" uuid="e61d926a-0ad7-4f7c-8c72-7c7cd464781d"/>
+					<textFieldExpression><![CDATA[$F{g_reservation_Date_retour}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" x="640" y="0" width="160" height="15" uuid="f4093f15-de7a-4118-86ed-9b412846bbf9"/>
+					<textFieldExpression><![CDATA[$F{g_reservation_Lieu_retour}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="6" splitType="Stretch">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="3" width="802" height="1" uuid="d1055d5b-d652-46cd-ae94-4bcf450c2206"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#999999"/>
+				</graphicElement>
+			</line>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-21" y="1" width="843" height="24" forecolor="#D0B48E" backcolor="#F2EBDF" uuid="4add0b7d-0974-4819-b4c4-e050df3091f5"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="783" y="1" width="40" height="20" forecolor="#736343" uuid="4c41357b-deb7-439d-b2eb-031dc1471a5b"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="703" y="1" width="80" height="20" forecolor="#736343" uuid="83c9b1aa-ea4d-4a7f-8821-fe57392305d8"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement style="Column header" x="22" y="1" width="197" height="20" forecolor="#736343" uuid="b0b122f3-a3c5-4fa7-8af7-72cd99b30fa3"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
